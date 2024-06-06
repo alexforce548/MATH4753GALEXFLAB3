@@ -1,0 +1,30 @@
+---
+title: "Lab3"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Lab3}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753GALEXFLAB3)
+```
+
+# ggmytable
+
+The "ggmytable" function takes a data frame, denoted as df, along with 2 qualitative and 1 quantitative variables (x,y, and z respectively) to produce a bar graph. Here, the x value designates the x axis, count is shown for the y axis, and the y variable designates how the graph is wrapped. Additionally, a summary is produced, grouped by the y variable, that determines the mean of z and the count with n.
+
+Overall, the lab serves to practically apply prior knowledge surrounding making functions, along with data wrangling and graphing via ggplot, to develop packages providing a beneficial tool towards analyzing data. 
+
+```{r}
+MATH4753GALEXFLAB3::ggmytable(ddt,"SPECIES","RIVER", "LENGTH")
+```
+

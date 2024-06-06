@@ -1,0 +1,17 @@
+#' DDT data set
+#'
+#' A data set of 144 fish that were caught in different rivers
+#'
+#' @format
+#' A data frame with 144 rows and 6 columns:
+#' \describe{
+#'   \item{RIVER}{river the fish was caught in}
+#'   \item{MILE}{distance in that the fish was caught}
+#'   \item{SPECIES}{species of fish}
+#'   \item{LENGTH}{length of fish}
+#'   \item{WEIGHT}{weight of fish}
+#'   \item{DDT}{ddt value associated with each fish}
+#'   ...
+#' }
+#' @source <https://books.google.com/books/about/Statistics_for_Engineering_and_the_Scien.html?id=Fdi_DQAAQBAJ>
+"ddt"
