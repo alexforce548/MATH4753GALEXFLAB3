@@ -4,7 +4,7 @@ Title: ggmytable
 Version: 0.1.0
 Author: Alex Force
 Maintainer: Alex Force <michael.a.force-1@ou.edu>
-Description: The function ggmytable takes a data frame that'll be wrangled, graphed, and summarized.
+Description: The function ggmytable takes a data frame that will be wrangled, graphed, and summarized.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
